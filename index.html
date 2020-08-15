@@ -1,0 +1,498 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+  <title>Pedro's Burger</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+
+</head>
+<body>
+<div class="top-nav-bar">
+    
+<div class="search-box">
+    <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>   
+    <i class="fa fa-times" id="close-btn" onclick="closemenu()"></i>   
+<a href="index.html"><img src="images/logo.png" class="logo"></a>
+<input type="text" class="form-control">
+<span class="input-group-text"><i class="fa fa-search"></i></span>
+</div>
+<div class="menu-bar">
+                
+<ul>
+<li><a href="#"></a><i class="fa fa-shopping-basket"></i> Cart</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+    
+</ul>
+</div>
+</div>
+
+<section class="header">
+<div class="side-menu" id="side-menu">
+<ul>
+    <li>Burgers<i class="fa fa-angle-right"></i>
+    <ul>
+    <li>Cheese Burger</li>
+    <li>Double Cheese Bacon</li>
+    <li>Camembert Burger</li>
+    <li>Mexican Burger</li>
+    <li>Veggie Burger</li>
+    </ul>   
+    </li>
+    <li>Sides<i class="fa fa-angle-right"></i>
+    <ul>
+    <li>Regular Fries</li>
+    <li>Sweet Potato Fries</li>
+    <li>Cranberry Lemonade</li>
+    <li>Orange Juice</li>
+    <li>Mexican Churros</li>
+    <li>Chocolate Brownie</li>
+    </ul>
+    </li>    
+   
+</ul>
+</div>
+<div class="slider">
+    <div id="slider" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/display_1.jpeg" height="560" width="768" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/display_2.jpeg" height="560" width="768" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/display_3.jpeg" height="560" width="768" class="d-block w-100">
+          </div>
+        </div>
+        <ol class="carousel-indicators">
+            <li data-target="#slider" data-slide-to="0" class="active"></li>
+            <li data-target="#slider" data-slide-to="1"></li>
+            <li data-target="#slider" data-slide-to="2"></li>
+            </ol>
+      </div>
+
+</div>
+
+</section>
+
+
+<!------------------Burgers----------------->
+
+<section class="Burgers">
+<div class="container">
+    <div class="title-box">
+    <h2>Our Burgers</h2>
+    </div>
+    <div class="row">
+    <div class="col-md-3">
+    <div class="product-top">
+        <a href="burger_1.html"><img src="images/burger_1.jpeg" height="384" width="290"></a>
+        <div class="overlay-right">
+        <button type="button" class="btn btn=secondary" title="Quick Shop">
+            <i class="fa fa-eye"></i>
+        </button>   
+        <button type="button" class="btn btn=secondary" title="Add to wishlist">
+            <i class="fa fa-heart-o"></i>
+        <button type="button" class="btn btn=secondary" title="Add to cart">
+                <i class="fa fa-shopping-cart"></i>
+        </button>  
+        </button>   
+        </div>
+    </div> 
+    <div class="product-bottom text-center">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+        <h3>Cheese Burger</h3>
+        <h5>$5.00</h5>
+    </div>   
+    </div>
+    
+        <div class="row">
+        <div class="col-md-3">
+        <div class="product-top">
+            <a href="burger_2.html"><img src="images/burger_2.jpeg" height="384" width="290"></a>
+            <div class="overlay-right">
+            <button type="button" class="btn btn=secondary" title="Quick Shop">
+                <i class="fa fa-eye"></i>
+            </button>   
+            <button type="button" class="btn btn=secondary" title="Add to wishlist">
+                <i class="fa fa-heart-o"></i>
+            <button type="button" class="btn btn=secondary" title="Add to cart">
+                    <i class="fa fa-shopping-cart"></i>
+            </button>  
+            </button>   
+            </div>
+        </div> 
+        <div class="product-bottom text-center">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <h3>Double Bacon Burger</h3>
+            <h5>$9.00</h5>
+        </div>   
+        </div>
+        
+            <div class="row">
+            <div class="col-md-3">
+            <div class="product-top">
+                <a href="burger_3.html"><img src="images/burger_3.jpeg" height="384" width="290"></a>
+                <div class="overlay-right">
+                <button type="button" class="btn btn=secondary" title="Quick Shop">
+                    <i class="fa fa-eye"></i>
+                </button>   
+                <button type="button" class="btn btn=secondary" title="Add to wishlist">
+                    <i class="fa fa-heart-o"></i>
+                <button type="button" class="btn btn=secondary" title="Add to cart">
+                        <i class="fa fa-shopping-cart"></i>
+                </button>  
+                </button>   
+                </div>
+            </div> 
+            <div class="product-bottom text-center">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <h3>Camembert Burger</h3>
+                <h5>$9.50</h5>
+            </div>   
+            </div>
+           
+                </div>
+                <div class="row">
+                <div class="col-md-3">
+                <div class="product-top">
+                    <a href="burger_4.html"><img src="images/burger_4.jpeg" height="384" width="290"></a>
+                    <div class="overlay-right">
+                    <button type="button" class="btn btn=secondary" title="Quick Shop">
+                        <i class="fa fa-eye"></i>
+                    </button>   
+                    <button type="button" class="btn btn=secondary" title="Add to wishlist">
+                        <i class="fa fa-heart-o"></i>
+                    <button type="button" class="btn btn=secondary" title="Add to cart">
+                            <i class="fa fa-shopping-cart"></i>
+                    </button>  
+                    </button>   
+                    </div>
+                </div> 
+                <div class="product-bottom text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <h3>Mexican Burger</h3>
+                    <h5>$9.00</h5>
+                </div>   
+                </div>
+                
+                    </div>
+                    <div class="row">
+                    <div class="col-md-3">
+                    <div class="product-top">
+                        <a href="burger_5.html"><img src="images/burger_5.jpeg" height="384" width="290"></a>
+                        <div class="overlay-right">
+                        <button type="button" class="btn btn=secondary" title="Quick Shop">
+                            <i class="fa fa-eye"></i>
+                        </button>   
+                        <button type="button" class="btn btn=secondary" title="Add to wishlist">
+                            <i class="fa fa-heart-o"></i>
+                        <button type="button" class="btn btn=secondary" title="Add to cart">
+                                <i class="fa fa-shopping-cart"></i>
+                        </button>  
+                        </button>   
+                        </div>
+                    </div> 
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <h3>2 x Smash Burger</h3>
+                        <h5>$10.00</h5>
+                    </div>   
+                    </div>
+                  
+                        </div>
+                        <div class="row">
+                        <div class="col-md-3">
+                        <div class="product-top">
+                            <a href="burger_6.html"><img src="images/burger_6.jpeg" height="384" width="290"></a>
+                            <div class="overlay-right">
+                            <button type="button" class="btn btn=secondary" title="Quick Shop">
+                                <i class="fa fa-eye"></i>
+                            </button>   
+                            <button type="button" class="btn btn=secondary" title="Add to wishlist">
+                                <i class="fa fa-heart-o"></i>
+                            <button type="button" class="btn btn=secondary" title="Add to cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                            </button>  
+                            </button>   
+                            </div>
+                        </div> 
+                        <div class="product-bottom text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <h3>Veggie Burger</h3>
+                            <h5>$7.00</h5>
+                        </div>   
+                        </div>
+        
+    </div>
+</div>
+
+
+</section>
+
+<!------------------Sides----------------->
+
+
+<section class="sides"></section>
+<div class="container">
+    <div class="title-box">
+    <h2>Sides</h2>
+    </div>
+    <div class="row">
+    <div class="col-md-3">
+    <div class="product-top">
+        <a href="side_1.html"><img src="images/side_1.jpeg" height="384" width="290"></a>
+        <div class="overlay-right">
+        <button type="button" class="btn btn=secondary" title="Quick Shop">
+            <i class="fa fa-eye"></i>
+        </button>   
+        <button type="button" class="btn btn=secondary" title="Add to wishlist">
+            <i class="fa fa-heart-o"></i>
+        <button type="button" class="btn btn=secondary" title="Add to cart">
+                <i class="fa fa-shopping-cart"></i>
+        </button>  
+        </button>   
+        </div>
+    </div> 
+    <div class="product-bottom text-center">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+        <h3>Regular Fries</h3>
+        <h5>$3.00</h5>
+    </div>   
+    </div>
+ 
+        </div>
+        <div class="row">
+        <div class="col-md-3">
+        <div class="product-top">
+            <a href="side_2.html"><img src="images/side_2.jpeg" height="384" width="290"></a>
+            <div class="overlay-right">
+            <button type="button" class="btn btn=secondary" title="Quick Shop">
+                <i class="fa fa-eye"></i>
+            </button>   
+            <button type="button" class="btn btn=secondary" title="Add to wishlist">
+                <i class="fa fa-heart-o"></i>
+            <button type="button" class="btn btn=secondary" title="Add to cart">
+                    <i class="fa fa-shopping-cart"></i>
+            </button>  
+            </button>   
+            </div>
+        </div> 
+        <div class="product-bottom text-center">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <h3>Sweet Potato Fries</h3>
+            <h5>$4.00</h5>
+        </div>   
+        </div>
+       
+            </div>
+            <div class="row">
+            <div class="col-md-3">
+            <div class="product-top">
+                <a href="side_3.html"><img src="images/side_3.jpeg" height="384" width="290"></a>
+                <div class="overlay-right">
+                <button type="button" class="btn btn=secondary" title="Quick Shop">
+                    <i class="fa fa-eye"></i>
+                </button>   
+                <button type="button" class="btn btn=secondary" title="Add to wishlist">
+                    <i class="fa fa-heart-o"></i>
+                <button type="button" class="btn btn=secondary" title="Add to cart">
+                        <i class="fa fa-shopping-cart"></i>
+                </button>  
+                </button>   
+                </div>
+            </div> 
+            <div class="product-bottom text-center">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <h3>Cranberry Juice</h3>
+                <h5>$5.00</h5>
+            </div>   
+            </div>
+
+        </div>
+        <div class="row">
+        <div class="col-md-3">
+        <div class="product-top">
+            <a href="side_4.html"><img src="images/side_4.jpeg" height="384" width="290"></a>
+            <div class="overlay-right">
+            <button type="button" class="btn btn=secondary" title="Quick Shop">
+                <i class="fa fa-eye"></i>
+            </button>   
+            <button type="button" class="btn btn=secondary" title="Add to wishlist">
+                <i class="fa fa-heart-o"></i>
+            <button type="button" class="btn btn=secondary" title="Add to cart">
+                    <i class="fa fa-shopping-cart"></i>
+            </button>  
+            </button>   
+            </div>
+        </div> 
+        <div class="product-bottom text-center">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <h3>Orange Juice</h3>
+            <h5>$4.50</h5>
+        </div>   
+        </div>
+
+    </div>
+    <div class="row">
+    <div class="col-md-3">
+    <div class="product-top">
+        <a href="side_5.html"><img src="images/side_5.jpeg" height="384" width="290"></a>
+        <div class="overlay-right">
+        <button type="button" class="btn btn=secondary" title="Quick Shop">
+            <i class="fa fa-eye"></i>
+        </button>   
+        <button type="button" class="btn btn=secondary" title="Add to wishlist">
+            <i class="fa fa-heart-o"></i>
+        <button type="button" class="btn btn=secondary" title="Add to cart">
+                <i class="fa fa-shopping-cart"></i>
+        </button>  
+        </button>   
+        </div>
+    </div> 
+    <div class="product-bottom text-center">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <h3>Mexican Churros</h3>
+        <h5>$5.00</h5>
+    </div>   
+    </div>
+      </div>
+            <div class="row">
+            <div class="col-md-3">
+            <div class="product-top">
+                <a href="side_6.html"><img src="images/side_6.jpeg" height="384" width="290"></a>
+                <div class="overlay-right">
+                <button type="button" class="btn btn=secondary" title="Quick Shop">
+                    <i class="fa fa-eye"></i>
+                </button>   
+                <button type="button" class="btn btn=secondary" title="Add to wishlist">
+                    <i class="fa fa-heart-o"></i>
+                <button type="button" class="btn btn=secondary" title="Add to cart">
+                        <i class="fa fa-shopping-cart"></i>
+                </button>  
+                </button>   
+                </div>
+            </div> 
+            <div class="product-bottom text-center">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <h3>Chocolate Brownie</h3>
+                <h5>$3.00</h5>
+            </div>   
+            </div>
+
+        </div>
+       
+        
+    </div>
+</div>
+
+
+
+<!------------------Footer----------------->
+
+
+
+<div class="footer">
+<div class="container text-center">
+    <div class="row">
+        <div class="col-md-3">
+            <h1> Useful Links</h1>
+            <p>Privacy Policy</p>
+            <p>About our products</p>
+            <p><a href="contact.html">Contact Us</a></p>
+            
+        </div>
+        <div class="col-md-3">
+            <h1>Follow us on</h1>
+            <p><a href="https://facebook.com"><i class="fa fa-facebook-official"></i>  Facebook</p></a>
+            <p><a href="https://youtube.com"><i class="fa fa-youtube-play"></i>  Youtube</p></a>
+            <p><a href="https://linkedin.com"><i class="fa fa-linkedin"></i>  Linkedin</p></a>
+            <p><a href="https://twitter.com"><i class="fa fa-twitter"></i>  Twitter</p></a>
+        </div>
+    </div>
+</div>
+
+<form action="https://formspree.io/xwkrzydj" method="POST">
+    <label for="_replyto">Email:</label><input type="email" name="_replyto">
+    <input type="submit" value="Subscribe">
+  </form>
+
+
+
+</div>
+
+
+
+
+    <script>
+        function openmenu()
+            {
+                document.getElementById("side-menu") .style.display="block";
+                document.getElementById("menu-btn") .style.display="none";
+                document.getElementById("close-btn") .style.display="block";
+            }
+
+        function closemenu()
+            {
+                document.getElementById("side-menu") .style.display="none";
+                document.getElementById("menu-btn") .style.display="block";
+                document.getElementById("close-btn") .style.display="none";
+            }
+    </script>
+
+
+
+
+</body>
+</html>
